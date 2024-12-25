@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
  class Main {
      public int soultion(String str, char t) {
