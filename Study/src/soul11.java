@@ -1,2 +1,0 @@
-public class soul11 {
-}
