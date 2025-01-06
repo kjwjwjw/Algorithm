@@ -45,8 +45,7 @@ Image1.jpg
 class Main23 {
 
     public int soultion(int n, int[][] arr) {
-        int answer = 0 ,  max=Integer.MAX_VALUE;
-
+        int answer = 0 ,  max=Integer.MIN_VALUE;
 
         for(int i=1; i<=n ; i++) {
             int cnt=0;
@@ -58,8 +57,7 @@ class Main23 {
                     }
 
                 }
-
-            }
+           }
             if(cnt>max) {
                 max=cnt;
                 answer=i;
