@@ -32,11 +32,18 @@ class Main27 {
     public int solution(int n, int m , int[] arr ) {
         int answer = 0;
         int a = 0 ;
+        int b = 0;
 
         for(int i = 0; i<n ; i++) {
-            a+=i;
+            a+=arr[i];
             if(a == m) {
                 answer++;
+            }
+            while(a>=m) {
+                a-=arr[b++];
+                if(a == m) {
+                    answer++;
+                }
             }
         }
 
